@@ -5,15 +5,20 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 .orange-color {
   color: orange;
 }
-section {
+.flex-container {
   display: flex;
 }
 .half-width {
-  width: 50%;
+  width: 40%;
   padding-left: 5%;
+  margin-left: 5%;
+  float: left;
 }
 .link-button {
   text-decoration: none;
@@ -24,7 +29,49 @@ section {
   font-weight: 700;
   border-radius: 5px;
 }
-.top-banner {
+.first-section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.second-section {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.third-section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.full-stack {
+  box-shadow: 5px 7px 40px gray;
+  padding-left: 2%;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-right: 7px solid;
+  border-image-slice: 1;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+}
+.baby-developer {
+  box-shadow: 5px 7px 40px gray;
+  padding-left: 2%;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-right: 7px solid;
+  border-image-slice: 1;
+  border-image: linear-gradient(180deg, blue, cyan);
+}
+footer {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  display: block;
+  text-align: center;
+}
+div {
+  display: block;
 }
